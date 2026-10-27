@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de Médias | DevOps</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/calculadora.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <main class="cartao">
+    <p class="etiqueta">Seminário de Engenharia de Software</p>
+    <h1>Calculadora de Médias</h1>
+    <p>Informe duas notas de 0 a 10 para calcular a média aritmética.</p>
+    <form id="formulario">
+      <label for="nota1">Primeira nota</label>
+      <input id="nota1" type="number" min="0" max="10" step="any" required placeholder="Ex.: 8">
+      <label for="nota2">Segunda nota</label>
+      <input id="nota2" type="number" min="0" max="10" step="any" required placeholder="Ex.: 6">
+      <button type="submit">Calcular média</button>
+    </form>
+    <p id="resultado" class="resultado" role="status" aria-live="polite">O resultado aparecerá aqui.</p>
+    <p class="rodape">Projeto demonstrativo de versionamento, testes e CI/CD.</p>
+  </main>
+</body>
+</html>

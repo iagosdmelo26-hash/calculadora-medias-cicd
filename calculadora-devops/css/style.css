@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #eef3fa; font-family: Arial, sans-serif; color: #22304a; padding: 20px; }
+.cartao { width: min(100%, 460px); background: white; padding: 32px; border-radius: 16px; box-shadow: 0 8px 28px #1e3a5f18; }
+.etiqueta { color: #2761b5; font-size: 13px; font-weight: bold; }
+h1 { margin-bottom: 8px; }
+p { line-height: 1.5; }
+label { display: block; font-weight: bold; margin: 16px 0 6px; }
+input { width: 100%; padding: 12px; border: 1px solid #a8b8cd; border-radius: 8px; font-size: 16px; }
+button { width: 100%; padding: 13px; margin-top: 22px; border: 0; border-radius: 8px; background: #2761b5; color: white; font-size: 16px; cursor: pointer; }
+button:hover { background: #174985; }
+.resultado { background: #f1f6ff; border-radius: 8px; padding: 14px; margin-top: 22px; }
+.rodape { font-size: 12px; color: #66768d; margin-top: 24px; }
